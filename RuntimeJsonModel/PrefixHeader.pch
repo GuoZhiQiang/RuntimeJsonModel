@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  RuntimeJsonModel
+//
+//  Created by guo on 15/8/10.
+//  Copyright (c) 2015年 guo. All rights reserved.
+//
+
+#ifndef RuntimeJsonModel_PrefixHeader_pch
+#define RuntimeJsonModel_PrefixHeader_pch
+
+#ifdef DEBUG
+#define TSLog(fmt, ...)       NSLog((fmt), ##__VA_ARGS__)
+#endif
+
+#endif
